@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/Lap_Number_view"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:hint="Lap" />
+
+    <TextView
+        android:id="@+id/Lap_Timer_view"
+        android:textSize="25sp"
+        android:gravity="right"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:hint="Time" />
+
+</LinearLayout>
